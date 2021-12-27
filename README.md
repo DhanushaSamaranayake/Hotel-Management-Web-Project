@@ -1,1 +1,1 @@
-# Hospital-Management-Web-Project
+# Hotel-Management-Web-Project
