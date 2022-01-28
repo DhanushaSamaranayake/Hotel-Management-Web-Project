@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet-mapping>
+          <servlet-name>defult</servlet-name>
+          <url-pattern>*.css</url-pattern>
+         </servlet-mapping>
+         
+        <servlet>
+         <servlet-name>login</servlet-name>
+         <servlet-class>Register.loginserv</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         <servlet-name>login</servlet-name>
+         <url-pattern>/loginserv</url-pattern>
+         </servlet-mapping>
+         
+             <servlet>
+         <servlet-name>Deleteuser</servlet-name>
+         <servlet-class>Register.DeleteServ</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         <servlet-name>Deleteuser</servlet-name>
+         <url-pattern>/DeleteServ</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         <servlet-name>Register</servlet-name>
+         <servlet-class>Register.register</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         <servlet-name>Register</servlet-name>
+         <url-pattern>/register</url-pattern>
+         </servlet-mapping>
+         
+         <context-param>
+    <param-name>dbUname</param-name>
+    <param-value>root</param-value>
+</context-param>
+<context-param>
+    <param-name>dbPassword</param-name>
+    <param-value>root</param-value>
+</context-param>
+<context-param>
+    <param-name>dbDriver</param-name>
+    <param-value>com.mysql.cj.jdbc.Driver</param-value>
+</context-param>
+<context-param>
+    <param-name>dbUrl</param-name>
+    <param-value>jdbc:mysql://localhost:3306/user</param-value>
+</context-param>
+         
+         
+         
+         
+</web-app>   
+
+      
+         
+   

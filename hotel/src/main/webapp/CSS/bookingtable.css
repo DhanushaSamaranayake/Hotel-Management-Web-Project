@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+#row
+{
+	margin-right:255px;
+}
+#text-center
+{
+	margin-left:300px;
+}
+#hr
+{
+	padding-left:130%;
+}
+#btn-warning
+{
+	margin-left: 1600%;
+}
+#form-control
+{
+	width:25%;
+}
+header
+{
+	background-color:#356678;
+}
+#table-bordered
+{
+	border: 5px solid #dee2e6;
+}
+
